@@ -1,0 +1,3 @@
+J’attire ici votre attention sur un point important : le commit (la validation / l’enregistrement en base de données) d’un fichier se basera sur l’état de ce fichier au moment du git add.
+
+Cela signifie que si vous effectuer une commande git add sur un fichier puis modifiez à nouveau le fichier puis effectuez un git commit, c’est le fichier dans son état au moment du dernier git add qui sera validé et les dernières modifications ne seront donc pas enregistrées dans le dépôt G
