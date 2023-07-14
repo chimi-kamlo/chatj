@@ -1,3 +1,10 @@
-J’attire ici votre attention sur un point important : le commit (la validation / l’enregistrement en base de données) d’un fichier se basera sur l’état de ce fichier au moment du git add.
+Jï¿½attire ici votre attention sur un point important : le commit (la validation / lï¿½enregistrement en base de donnï¿½es) dï¿½un fichier se basera sur lï¿½ï¿½tat de ce fichier au moment du git add.
 
-Cela signifie que si vous effectuer une commande git add sur un fichier puis modifiez à nouveau le fichier puis effectuez un git commit, c’est le fichier dans son état au moment du dernier git add qui sera validé et les dernières modifications ne seront donc pas enregistrées dans le dépôt G
+Cela signifie que si vous effectuer une commande git add sur un fichier puis modifiez ï¿½ nouveau le fichier puis effectuez un git commit, cï¿½est le fichier dans son ï¿½tat au moment du dernier git add qui sera validï¿½ et les derniï¿½res modifications ne seront donc pas enregistrï¿½es dans le dï¿½pï¿½t GPS C:\Users\CHIMI\Desktop\tes> git add index.html
+PS C:\Users\CHIMI\Desktop\tes> git commit -m "page d'acceuil"
+[documents f550d4d] page d'acceuil
+ 1 file changed, 12 insertions(+)
+ create mode 100644 index.html
+PS C:\Users\CHIMI\Desktop\tes> git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4
